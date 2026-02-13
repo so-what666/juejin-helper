@@ -29,8 +29,8 @@ jobs:
       - name: Run Project
         run: |
           cd workflows
-          npm
-          npm run checkin
+          yarm
+          yarm checkin
 
 #  SeaGold:
 #    needs: CheckIn
